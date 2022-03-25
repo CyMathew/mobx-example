@@ -1,9 +1,17 @@
 import React from 'react';
+import InsideView from './InsideView';
+import OutsideView from './OutsideView';
 
-const App = () => {
+function App() {
     return (
-        <h1>Welcome to React</h1>
+        <div>
+
+            <h1>Welcome to MobX Example</h1>
+
+            <OutsideView></OutsideView>
+            <InsideView></InsideView>
+        </div>
     )
-}
+};
 
 export default App;
